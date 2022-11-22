@@ -61,14 +61,14 @@ describe('GoalTime Testing', () => {
     const pomodoroSession4 =
     {
         titlepomo: "Walking",
-        startdate: "2022-11-14",
-        enddate: "2022-11-03",
+        startdate: "2022-11-24",
+        enddate: "2022-11-30",
         starttime: "11:",
-        durationPomo: 1,
+        durationPomo: 5,
         durationBreak: 2,
         numsession: 6,
         numrepetition: 2,
-        isGoog: false
+        isGoog: true
     }
 
 
@@ -292,7 +292,7 @@ describe('GoalTime Testing', () => {
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfTWHYvPk2Q8NwG4nLcKb4YJ5N50zSY_1Szzkgu-Of3JKIpIXZJCvd5nQzdXztoFc8Sl8&usqp=CAU",
             isGoogle: true,
             pomoCo: 3,
-            pomoCr: 10,
+            pomoCr: 8,
             pomoF: 5
         }
 
